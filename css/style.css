@@ -1,5 +1,46 @@
 /* Variables */
 /* mixin */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+@import url(./bootstrap.min.css);
+@import url(./animate.css);
+@import url(./owl.carousel.css);
+@import url(./magnific-popup.css);
+@import url(./font-awesome.min.css);
+@import url(./themify-icons.css);
+@import url(./medilife-icons.css);
+@import url(./nice-select.css);
+.step-heading {
+  height: 33px;
+  padding-bottom: 50px;
+  cursor: pointer; }
+
+.step-body {
+  color: #57595c;
+  font-size: 15px;
+  line-height: 2;
+  font-weight: 400; }
+
+.step:last-child .step-heading {
+  padding-bottom: 0; }
+
+.step-heading > a:hover {
+  text-decoration: none; }
+
+.step-heading .num {
+  width: 32px;
+  height: 32px; }
+
+.steps .step .line {
+  border-left: 2px solid #96999c;
+  left: 16px;
+  bottom: 0px;
+  top: 32px; }
+
+.title-faq {
+  font-size: 18px;
+  color: #081f3e;
+  font-weight: 600; }
+
 /* ----------------------------------------------------------
 :: Template Name: Medilife - Medical & Health Template
 :: Author: Colorlib
@@ -33,16 +74,7 @@
 :: 21.0 Shortcode Area CSS
 ------------------------------------------------ */
 /* :: 1.0 Import Fonts */
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
 /* :: 2.0 Import All CSS */
-@import url(./bootstrap.min.css);
-@import url(./animate.css);
-@import url(./owl.carousel.css);
-@import url(./magnific-popup.css);
-@import url(./font-awesome.min.css);
-@import url(./themify-icons.css);
-@import url(./medilife-icons.css);
-@import url(./nice-select.css);
 /* :: 3.0 Base CSS */
 * {
   margin: 0;
@@ -116,6 +148,9 @@ a {
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
+
+.bg_blue {
+  background-color: #0779e4; }
 
 @keyframes medilife-load {
   0% {
