@@ -41,6 +41,36 @@
   color: #081f3e;
   font-weight: 600; }
 
+.oter-services {
+  padding: 20px;
+  margin: 20px 0; }
+  .oter-services .title-other-services {
+    font-weight: 600; }
+  .oter-services .n-p {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #0779e4; }
+    .oter-services .n-p:hover {
+      background-color: #055fb3; }
+    .oter-services .n-p .title-n {
+      font-size: 20px;
+      color: #ffffff; }
+    .oter-services .n-p .link-n {
+      color: #ffffff;
+      font-weight: normal; }
+
+.list-os .item-os {
+  color: #57595c; }
+  .list-os .item-os .link-os {
+    color: #57595c;
+    font-weight: normal; }
+    .list-os .item-os .link-os .fa {
+      color: #081f3e;
+      font-size: 8px;
+      margin-right: 5px; }
+    .list-os .item-os .link-os:hover {
+      color: #0779e4; }
+
 /* ----------------------------------------------------------
 :: Template Name: Medilife - Medical & Health Template
 :: Author: Colorlib
@@ -75,6 +105,26 @@
 ------------------------------------------------ */
 /* :: 1.0 Import Fonts */
 /* :: 2.0 Import All CSS */
+.testi {
+  padding: 10px; }
+  .testi .fa {
+    font-size: 25px;
+    color: #cbccce; }
+  .testi .testi-text {
+    line-height: 22px;
+    font-style: italic;
+    font-size: 14px; }
+  .testi .testi-avatar {
+    width: 20% !important;
+    border-radius: 50%;
+    margin: 20px auto; }
+  .testi .testi-name {
+    font-size: 12px; }
+  .testi .text-client {
+    font-size: 11px;
+    color: #cbccce;
+    font-weight: 600; }
+
 /* :: 3.0 Base CSS */
 * {
   margin: 0;
@@ -291,8 +341,17 @@ img {
 .section-padding-100 {
   padding: 100px 0; }
 
+.section-padding-50-0-100 {
+  padding: 50px 0 100px 0; }
+
+.section-padding-100-0-50 {
+  padding: 100px 0 50px 0; }
+
 .section-padding-50 {
   padding: 50px 0; }
+
+.section-padding-20 {
+  padding: 20px 0; }
 
 .section-padding-50-0 {
   padding: 50px 0 0 0; }
@@ -1149,13 +1208,12 @@ textarea {
   border-bottom: none; }
 
 .medilife-tabs-content .nav-link {
-  padding: 15px 30px;
+  padding: 15px 10px;
   background-color: #f0f0f0;
   display: block;
   border-radius: 0 !important;
   border: none;
-  border-bottom: 20px solid #ffffff;
-  font-size: 18px;
+  font-size: 16px;
   color: #081f3e; }
   .medilife-tabs-content .nav-link:hover, .medilife-tabs-content .nav-link:focus {
     border-color: #ffffff; }
@@ -1168,7 +1226,7 @@ textarea {
         border-color: #ffffff; } }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .medilife-tabs-content .nav-link {
-      padding: 15px; } }
+      padding: 5px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .medilife-tabs-content .nav-link {
       padding: 15px;
